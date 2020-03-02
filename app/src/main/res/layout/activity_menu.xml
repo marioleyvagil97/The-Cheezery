@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menuTitle"
+        android:textColor="@color/purpleishGrey"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:layout_margin="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnColdDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn1"
+                android:textColor="@color/dustyWhite"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnHotDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn2"
+                android:textColor="@color/dustyWhite"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnSweets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn3"
+                android:textColor="@color/dustyWhite"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnSalties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn4"
+                android:textColor="@color/dustyWhite"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnCombos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn5"
+                android:textColor="@color/dustyWhite"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnPersonalized"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn6"
+                android:textColor="@color/dustyWhite"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
