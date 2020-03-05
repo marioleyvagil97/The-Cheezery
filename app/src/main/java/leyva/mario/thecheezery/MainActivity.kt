@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
 
 
         //Codigo para iniciar otra activity
-        btnGetStarted.setOnClickListener{
-            var intent = Intent(this,menuActivity::class.java)
+        btn_inicio.setOnClickListener{
+            var intent = Intent(this,registroActivity::class.java)
             startActivity(intent)
 
         }
