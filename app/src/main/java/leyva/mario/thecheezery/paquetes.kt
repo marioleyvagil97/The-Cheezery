@@ -25,12 +25,15 @@ class paquetes : AppCompatActivity() {
 
     }
     fun cargarCombos(){
-        combos.add(combo("Coffe n cake",15,R.drawable.circulo))
-        combos.add(combo("Coffe n cake",15,R.drawable.circulo))
-        combos.add(combo("Coffe n cake",15,R.drawable.circulo))
-        combos.add(combo("Coffe n cake",15,R.drawable.circulo))
-        combos.add(combo("Coffe n cake",15,R.drawable.circulo))
-        combos.add(combo("Coffe n cake",15,R.drawable.circulo))
+        combos.add(combo("Frap 1+1",15,R.drawable.frapcombo))
+        combos.add(combo("Capuccino 1+1",12,R.drawable.capuccinocombo))
+        combos.add(combo("Hot + Cold",5,R.drawable.hotandcold))
+        combos.add(combo("Sandwich 1+1",8,R.drawable.sandwichcombo))
+        combos.add(combo("Coffe + sandwich",6,R.drawable.coffesandwich))
+        combos.add(combo("Cheezery Meal",10,R.drawable.cheezerymeal))
+        combos.add(combo("Cupcakes 2+2",10,R.drawable.cupcakescombo))
+        combos.add(combo("Coffe + cake",7,R.drawable.coffeandcake))
+        combos.add(combo("Sweet + Salty",10,R.drawable.saltyandsweet))
     }
 
     class AdaptadorCombos: BaseAdapter {
@@ -51,7 +54,7 @@ class paquetes : AppCompatActivity() {
 
             vista.comboImage.setImageResource(combo.img)
             vista.comboNombre.setText(combo.name)
-            vista.comboPrecio.setText(combo.precio.toString())
+            vista.comboPrecio.setText("$"+combo.precio.toString())
 
             return vista
 

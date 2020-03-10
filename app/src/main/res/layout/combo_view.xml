@@ -2,35 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="5dp"
-    android:background="@color/dustyWhite">
+    android:padding="5dp">
 
 
     <LinearLayout
-        android:background="@color/dustyWhite"
+        android:background="@drawable/fondo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="5dp">
 
         <ImageView
             android:id="@+id/comboImage"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/circulo" />
+            android:layout_height="130dp"
+            android:src="@drawable/coffeandcake" />
         <TextView
             android:id="@+id/comboNombre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="Cake n Coffe"
             android:fontFamily="sans-serif-light"
             android:textColor="@drawable/degradado"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:gravity="center"
             android:textAlignment="center"/>
         <TextView
             android:id="@+id/comboPrecio"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="$10"
             android:textColor="@color/colorPrimaryDark"
             android:gravity="center"
