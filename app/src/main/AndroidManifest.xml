@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".listView"></activity>
+        <activity android:name=".paquetes"></activity>
+        <activity android:name=".combosActivity"></activity>
+        <activity android:name=".Dulcecitos" />
+        <activity android:name=".listView" />
         <activity android:name=".productosActivity" />
         <activity android:name=".personalized" />
         <activity android:name=".combos" />

@@ -22,7 +22,7 @@ class menuActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnDulces.setOnClickListener{
-            var intent = Intent(this,dulces::class.java)
+            var intent = Intent(this,Dulcecitos::class.java)
             startActivity(intent)
         }
         btnSalties.setOnClickListener{
@@ -30,7 +30,7 @@ class menuActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnCombos.setOnClickListener{
-            var intent = Intent(this,combos::class.java)
+            var intent = Intent(this,paquetes::class.java)
             startActivity(intent)
         }
         btnPersonalized.setOnClickListener{
